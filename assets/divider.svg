@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 28" width="1000" height="28" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace">
+<text x="40" y="19" font-size="16" fill="#334155" xml:space="preserve" textLength="920" lengthAdjust="spacingAndGlyphs">────────────────────────────────────────────────────────────────────────────────────────────</text>
+<text x="40" y="19" font-size="16" fill="#22d3ee" xml:space="preserve" textLength="70" lengthAdjust="spacingAndGlyphs"><animateTransform attributeName="transform" type="translate" from="0 0" to="850 0" dur="5s" repeatCount="indefinite"/>░▒▓█▓▒░</text>
+<rect x="470" y="0" width="60" height="28" fill="#0a0e14"/><text x="500" y="20" font-size="16" fill="#a78bfa" text-anchor="middle">◆<animate attributeName="opacity" values="1;.2;1" dur="2s" repeatCount="indefinite"/></text></svg>
