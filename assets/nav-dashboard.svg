@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 44" width="160" height="44" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"><defs><linearGradient id="acc" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0" spreadMethod="reflect">
-<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/>
-<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="800 0" dur="6s" repeatCount="indefinite"/></linearGradient></defs>
-<rect x="1" y="1" width="158" height="42" rx="14" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
-<rect pathLength="400" x="1" y="1" width="158" height="42" rx="14" fill="none" stroke="url(#acc)" stroke-width="1.8" stroke-dasharray="60 340"><animate attributeName="stroke-dashoffset" from="0" to="-400" dur="4s" begin="0.0s" repeatCount="indefinite"/></rect>
-<text x="80" y="27" font-size="14" fill="#e5e7eb" text-anchor="middle"><tspan fill="#22d3ee">00</tspan> dashboard</text></svg>
