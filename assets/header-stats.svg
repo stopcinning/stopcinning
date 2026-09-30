@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 90" width="1000" height="90" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace"><defs><linearGradient id="acc" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0" spreadMethod="reflect">
+<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/>
+<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="800 0" dur="6s" repeatCount="indefinite"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity=".6"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".06"/><stop offset="1" stop-color="#a78bfa" stop-opacity=".6"/></linearGradient>
+<linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3b82f6" stop-opacity=".7"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<filter id="g" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="10" y="8" width="980" height="74" rx="20" fill="#ffffff" fill-opacity=".035" stroke="url(#edge)" stroke-width="1.2"/>
+<rect x="34" y="24" width="5" height="42" rx="2.5" fill="url(#acc)"><animate attributeName="opacity" values="1;.35;1" dur="2.4s" repeatCount="indefinite"/></rect>
+<text x="58" y="38" font-size="13" fill="#22d3ee" opacity=".9">02 // numbers</text>
+<text x="58" y="68" font-size="33" font-weight="800" fill="url(#acc)" textLength="100" lengthAdjust="spacingAndGlyphs">STATS</text>
+<rect x="184" y="54" width="716" height="1.5" fill="url(#ln)"/>
+<circle r="3" cy="55" fill="#22d3ee" filter="url(#g)"><animate attributeName="cx" values="184;900;184" dur="5s" repeatCount="indefinite"/></circle>
+<text x="960" y="61" font-size="14" fill="#6b7280" text-anchor="end">02/05</text></svg>

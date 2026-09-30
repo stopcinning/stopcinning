@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 80" width="1000" height="80"><defs><linearGradient id="acc" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="400" y2="0" spreadMethod="reflect">
+<stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#3b82f6"/><stop offset="1" stop-color="#a78bfa"/>
+<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="800 0" dur="6s" repeatCount="indefinite"/></linearGradient>
+<filter id="g" x="-10%" y="-50%" width="120%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<path d="M0 40H180l12-8 12 8H330l10 8 14-34 16 58 12-32H470l14-10 14 10H640l10 8 14-34 16 58 12-32H800l12-8 12 8H1000" fill="none" stroke="#3b82f6" stroke-opacity=".22" stroke-width="2"/>
+<path pathLength="1000" d="M0 40H180l12-8 12 8H330l10 8 14-34 16 58 12-32H470l14-10 14 10H640l10 8 14-34 16 58 12-32H800l12-8 12 8H1000" fill="none" stroke="url(#acc)" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="170 830" filter="url(#g)"><animate attributeName="stroke-dashoffset" from="170" to="-1000" dur="3.2s" repeatCount="indefinite"/></path></svg>
